@@ -1,0 +1,31 @@
+body{
+  background-color: #a3a3a3;
+}
+.img-slider{
+  width: 500px;
+  height: 300px;
+  margin: 100px auto;
+  position: relative;
+}
+.disp-img img{
+  display: none;
+  overflow: hidden;
+}
+.disp-img .current {
+  display: block;
+}
+.img-slider .prev-btn {
+  position: absolute;
+  left:-10px;
+  top: 120px;
+  cursor: pointer;
+}
+.img-slider .after-btn {
+  position: absolute;
+  top: 120px;
+  right: -10px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
